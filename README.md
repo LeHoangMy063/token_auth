@@ -28,6 +28,7 @@ npm install
 node app.js
 
 Server mặc định chạy ở http://localhost:3000
+
 ---
 
 ## a. Gọi API Profile trước
