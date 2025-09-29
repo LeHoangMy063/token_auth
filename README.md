@@ -47,11 +47,14 @@ Khi chưa login và chưa có token, API sẽ từ chối truy cập.
 
 - POST: `http://localhost:3000/api/auth/register` 
 
-Body (JSON): {
+Body (JSON): 
+```bash
+{
   "username": "admin1234",
   "password": "123456",
   "email":"admin1234@.abc"
 }
+```
 -> Send
 
 Ảnh test:
@@ -69,11 +72,14 @@ Body (JSON): {
 
 - POST: `http://localhost:3000/api/auth/login` 
 
-Body (JSON): {
+Body (JSON): 
+```bash
+{
   "username": "admin1234",
   "password": "123456",
   "email":"admin1234@.abc"
 }
+```
 
 Ảnh test:
 ![login](public/results/c.login.png)
