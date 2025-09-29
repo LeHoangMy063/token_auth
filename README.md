@@ -61,7 +61,7 @@ Body (JSON): {
 
 { "message": "User registered successfully!"}
 
-## b. Login
+## c. Login
 
 1. Tạo một REQUEST mới
 
@@ -78,17 +78,20 @@ Body (JSON): {
 Ảnh test:
 ![login](public/results/c.login.png)
 
-## c. Profile
+## d. Profile
 
 Yêu cầu: Đã login
 
 - GET: `http://localhost:3000/api/auth/profile`
 
-Body (JSON): {
+Body (JSON): 
+```bash
+{
   "username": "admin1234",
   "password": "123456",
   "email":"admin1234@.abc"
 }
+```
 
 Authorization: Bearer Token
 
